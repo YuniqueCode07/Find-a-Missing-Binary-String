@@ -82,11 +82,9 @@ Run it:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Find-a-Missing-Binary-String.git
+git clone https://github.com/YuniqueCode07/Find-a-Missing-Binary-String.git
 cd Find-a-Missing-Binary-String
 ```
-
-Replace `YOUR_USERNAME` with your GitHub username.
 
 ### 2. Compile the Program
 
