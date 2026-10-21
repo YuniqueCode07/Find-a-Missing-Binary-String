@@ -72,6 +72,47 @@ Run it:
 - Time and space complexity
 - Algorithmic problem-solving
 
+## Compilation and Execution
+
+### Requirements
+
+- GCC (GNU Compiler Collection)
+- A Linux terminal or another environment that supports C and variable-length arrays (VLAs)
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Find-a-Missing-Binary-String.git
+cd Find-a-Missing-Binary-String
+```
+
+Replace `YOUR_USERNAME` with your GitHub username.
+
+### 2. Compile the Program
+
+```bash
+gcc -std=c11 -Wall -Wextra Find-a-Missing-Binary-String.c -o missing_binary_string
+```
+
+### 3. Run the Program
+
+```bash
+./missing_binary_string
+```
+
+### Example
+
+```text
+Give me the length of the table (strictly positive): 3
+Give me the digit number 1 of the number n°1. You must enter 0 or 1: 0
+Give me the digit number 2 of the number n°1. You must enter 0 or 1: 0
+Give me the digit number 3 of the number n°1. You must enter 0 or 1: 1
+...
+111
+```
+
+The program prompts the user to enter the bits of each binary string individually, then displays a binary string that is absent from the input array.
+
 ## License
 
 This project is available for educational purposes.
