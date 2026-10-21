@@ -55,7 +55,7 @@ int main()
     char *result = missing_binary_string(n, nums);
 
     if (result != NULL) {
-        printf("%s\n", result);
+        printf("One of the binary numbers that is missing is : %s\n", result);
         free(result);
     } else
         printf("Memory allocation failed.");
